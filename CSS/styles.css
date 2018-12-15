@@ -1,0 +1,58 @@
+/*
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+for extra fonts use google web fonts
+
+*/
+
+
+body					{ background-image:url(../Images/background/bg1.jpg);
+							background-repeat:repeat;
+							font-family:Arial, Helvetica, sans-serif; }
+
+h1, h2, h3				{ font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif; }
+
+#wrapper				{ width:900px; margin:10px auto; background-color:#FFF;
+							padding:0 40px; }
+							
+#Header					{  }
+
+#Logo					{ float:left; margin:50px 0; }
+
+#Social-Media			{ float:right; margin:40px 0; }
+#Social-Media ul li		{ display:inline; }
+#Social-Media p			{ text-align:right; }
+
+#Nav					{ clear:both; }
+#Nav ul li				{ display:inline; margin:0 40px 0 0; }
+#Nav ul					{ padding:15px 0; margin:0; border-top:1px #000 dotted; }
+#Nav a:link				{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; }
+#Nav a:visited			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; }
+#Nav a:active			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; }
+#Nav a:hover			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#A85400; }
+#Nav a:focus			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#A85400; }
+
+#Content				{ float:left; width:580px; }
+#Content h2				{ color:#A85400; }
+#Content p				{ font-size:12px; line-height:180%; }
+
+#box1					{ width:260px; float:left; margin-right:40px; }
+
+#box2					{ width:260px; float:left; }
+
+.img-right				{ float:right; padding:0 0 0 25px; }
+
+#RightSide				{ float:right; width:270px; }
+#RightSide h2			{ color:#A85400; }
+#RightSide p			{ font-size:12px; line-height:180%; }
+#RightSide li			{ font-size:12px; line-height:180%; }
+
+#Footer					{ clear:both; padding:10px 0; border-top:1px #000 dotted; }
+#Footer p				{ text-align:center; font-size:14px; font-weight:bold; }
+
+#gallery ul li			{ list-style-type:none; display:inline; margin-left:0px; padding-left:0px; }
+
+#gallery img			{ padding:5px; border:1px #555 dotted; margin:0 15px 15px 0; }
+
+.thumb-large			{ width:200px; height:150px; }
